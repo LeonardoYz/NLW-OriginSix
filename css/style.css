@@ -69,8 +69,8 @@
   margin-bottom: 1rem;
 }
 
-.section .subtitle {
-  font-size: var(--subtitle-font-size);
+.subtitle {
+  font-size: var(--subtitle-font-size-alt);
 }
 
 .section header span {
@@ -155,7 +155,6 @@
 
 /*==== ABOUT ========================*/
 #about {
-  overflow: hidden;
   background: #fff;
 }
 
@@ -220,6 +219,7 @@
 /*==== TESTIMONIALS ========================*/
 #testimonials {
   background: #fff;
+  overflow: hidden;
 }
 
 #testimonials .container {
@@ -338,7 +338,6 @@
 @media (min-width: 576px) {
   :root {
     --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
   }
 
   .section {
