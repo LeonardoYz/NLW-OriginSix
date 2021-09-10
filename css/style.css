@@ -156,6 +156,7 @@
 /*==== ABOUT ========================*/
 #about {
   background: #fff;
+  overflow: hidden;
 }
 
 #about .container {
@@ -219,6 +220,7 @@
 /*==== TESTIMONIALS ========================*/
 #testimonials {
   background: #fff;
+  position: relative;
   overflow: hidden;
 }
 
