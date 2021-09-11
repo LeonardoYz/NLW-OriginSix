@@ -399,6 +399,11 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  #services .services__cards .card:last-child {
+    position: relative;
+    left: 53%;
+  }
+
   #contact .contact__text {
     width: 60%;
   }
