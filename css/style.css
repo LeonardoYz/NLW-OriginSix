@@ -534,6 +534,10 @@
     gap: 2rem;
   }
 
+  #services .services__cards .card:last-child {
+    left: 0;
+  }
+
   .card {
     padding: 2.375rem 1.5rem;
   }
