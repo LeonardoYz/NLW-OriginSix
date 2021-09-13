@@ -30,11 +30,11 @@ function changeHeaderWhenScroll() {
 
 // Testimonials slider //
 const swiper = new Swiper('.swiper-container', {
+  loop: true,
   speed: 450,
   slidesPerView: 1,
   pagination: {
-    el: '.swiper-pagination',
-    dynamicBullets: true
+    el: '.swiper-pagination'
   },
   keyboard: true,
   breakpoints: {

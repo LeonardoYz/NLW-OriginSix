@@ -220,13 +220,13 @@
 /*==== TESTIMONIALS ========================*/
 #testimonials {
   background: #fff;
-  position: relative;
-  overflow: hidden;
 }
 
 #testimonials .container {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 #testimonials header {
@@ -340,6 +340,7 @@
 @media (min-width: 576px) {
   :root {
     --title-font-size: 2.25rem;
+    --subtitle-font-size-alt: 1.125rem;
   }
 
   .section {
